@@ -24,9 +24,9 @@ For Node.js:
 
 ```js
 var endsWith = require('@fav/text.ends-with');
-endsWith('abc', 'a'); // => true
+endsWith('abc', 'c'); // => true
 endsWith('abc', 'b'); // => false
-endsWith('abc', 'b', 1); // => true
+endsWith('abc', 'b', 2); // => true
 ```
 
 For Web browsers:
@@ -35,9 +35,9 @@ For Web browsers:
 <script src="fav.text.ends-with.min.js"></script>
 <script>
 var endsWith = fav.text.endsWith;
-endsWith('abc', 'a'); // => true
+endsWith('abc', 'c'); // => true
 endsWith('abc', 'b'); // => false
-endsWith('abc', 'b', 1); // => true
+endsWith('abc', 'b', 2); // => true
 </script>
 ```
 
@@ -47,7 +47,7 @@ endsWith('abc', 'b', 1); // => true
 ### <u>endsWith(string, target [, length]) : boolean</u>
 
 Checks if *string* ends with *target*.
-If *length* is specified this function ends comparison at index `length - 1`.
+If *length* is specified, this function ends comparison at index `length - 1`.
 
 **NOTE:** This function doesn't check data types of the arguments, and assumes that they are given as per the specific data types.
 
@@ -109,7 +109,7 @@ This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/fav-text.ends-with/
-[npm-img]: https://img.shields.io/badge/npm-v0.1.1-blue.svg
+[npm-img]: https://img.shields.io/badge/npm-v1.0.0-blue.svg
 [npm-url]: https://www.npmjs.com/package/@fav/text.ends-with
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/licenses/MIT
