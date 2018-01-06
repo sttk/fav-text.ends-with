@@ -68,7 +68,7 @@ True, if *string* ends with *target*, otherwise false.
 
 ## Checked                                                                      
 
-### Node.js (4〜8)
+### Node.js (4〜9)
 
 | Platform  |   4    |   5    |   6    |   7    |   8    |   9    |
 |:---------:|:------:|:------:|:------:|:------:|:------:|:------:|
