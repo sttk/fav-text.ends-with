@@ -1,6 +1,6 @@
 {
   "name": "@fav/text.ends-with",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Checks if a string ends with given string.",
   "main": "index.js",
   "files": [
