@@ -61,14 +61,20 @@ If *length* is specified, this function ends comparison at index `length - 1`.
 
 #### Return:
 
-True, if *string* ends with *target*, otherwise false.
-
-**Type:** boolean
+| Type   | Description                                              |
+|:------:|:---------------------------------------------------------|
+| boolean| True, if *string* ends with *target*, otherwise false.   |
 
 
 ## Checked                                                                      
 
-### Node.js (4〜)
+### Node.js (4〜12)
+
+| Platform  |   11   |   12   |
+|:---------:|:------:|:------:|
+| macOS     |&#x25ef;|&#x25ef;|
+| Windows10 |&#x25ef;|&#x25ef;|
+| Linux     |&#x25ef;|&#x25ef;|
 
 | Platform  |   4    |   5    |   6    |   7    |   8    |   9    |   10   |
 |:---------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -103,7 +109,7 @@ True, if *string* ends with *target*, otherwise false.
 
 ## License
 
-Copyright (C) 2017-2018 Takayuki Sato
+Copyright (C) 2017-2019 Takayuki Sato
 
 This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
